@@ -35,5 +35,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAP_CODE_DELAY 5
 
-#define POINTING_DEVICE_AUTO_MOUSE_ENABLE
-#define AUTO_MOUSE_DEFAULT_LAYER 1
+// 使わないので無効化
+//#define POINTING_DEVICE_AUTO_MOUSE_ENABLE
+//#define AUTO_MOUSE_DEFAULT_LAYER 1
+
+// 自分用設定
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
+#define SPLIT_WATCHDOG_ENABLE
+// how long before a key press becomes a hold
+#define TAPPING_TERM 200
+// makes tap and hold keys trigger the hold if another key is pressed before releasing, even if it hasn't hit the TAPPING_TERM
+// See Permissive Hold for details
+#define PERMISSIVE_HOLD
+
